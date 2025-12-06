@@ -148,17 +148,18 @@ def plot_satisfaction_by_gender(data):
 
 def plot_worklife_by_field(data):
     fig, ax = plt.subplots(figsize=(8, 4))
-    # Boxplot of WorkLifeBalance by Field_of_Study
+    # Boxplot of Career Satisfaction by Field_of_Study
     fields = data["Field_of_Study"].dropna().unique()
-    wlb_data = [data[data["Field_of_Study"] == f]["WorkLifeBalance_Score"]
+    sat_data = [data[data["Field_of_Study"] == f]["Career_Satisfaction"]
                 for f in fields]
-    ax.boxplot(wlb_data, labels=fields)
-    ax.set_title("Which Majors Achieve Better Work-Life Balance?")
+    ax.boxplot(sat_data, labels=fields)
+    ax.set_title("Career Satisfaction by Field of Study")
     ax.set_xlabel("Field of Study")
-    ax.set_ylabel("Work-Life Balance Score")
+    ax.set_ylabel("Career Satisfaction")
     ax.tick_params(axis="x", rotation=45, labelsize=8)
     fig.tight_layout()
     return fig
+
 
 
 def plot_joblevel_pie(data):
@@ -268,4 +269,5 @@ st.markdown(
 - Job levels and satisfaction vary across fields and genders, highlighting where support or guidance may be needed.
 """
 )
+
 
