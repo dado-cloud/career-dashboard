@@ -21,8 +21,9 @@ st.markdown(
 # -------------------------------------------------------
 @st.cache_data
 def load_data():
-    # Make sure the file name matches your CSV
-    return pd.read_csv("DS4.3_CE_Student_Career_Outcome.csv")
+    
+    return pd.read_csv("education_career_success.csv")
+
 
 df = load_data()
 
@@ -267,3 +268,4 @@ st.markdown(
 - Job levels and satisfaction vary across fields and genders, highlighting where support or guidance may be needed.
 """
 )
+
