@@ -1,4 +1,4 @@
-````markdown
+
 # Graduate Career Outcomes Dashboard
 
 **Exploring the Relationship Between Education and Career Success**
@@ -117,5 +117,4 @@ Daad Alhassan
 2. GeeksforGeeks, "Types of Data Visualization Charts: From Basic to Advanced."
 3. S. Few, *Show Me the Numbers: Designing Tables and Graphs to Enlighten*, Analytics Press, 2012.
 
-```
-```
+
