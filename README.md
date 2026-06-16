@@ -3,7 +3,6 @@
 
 **Exploring the Relationship Between Education and Career Success**
 
-This project was created for **DS 413: Data Exploration and Visualization**.  
 It focuses on **SDG 4: Quality Education** and explores how educational factors may influence career success.
 
 ## Project Overview
