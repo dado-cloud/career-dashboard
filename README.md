@@ -31,7 +31,7 @@ The goal of this project is to turn the dataset into clear visual insights that 
 The dataset used in this project is:
 
 ```text
-Education and Career Success from Kaggle
+education_career_success.csv
 ````
 
 The dataset contains student academic and career outcome information.
