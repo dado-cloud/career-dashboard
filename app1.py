@@ -1,4 +1,4 @@
-```python
+
 # app.py
 import streamlit as st
 import pandas as pd
@@ -383,4 +383,4 @@ st.markdown(
 - Job levels and satisfaction vary across fields and genders, highlighting where support or guidance may be needed.
 """
 )
-```
+
